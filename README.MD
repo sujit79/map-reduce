@@ -11,7 +11,9 @@ lexical analysis to find potential word mappings which are there
 # Experiment
 
 An input of Names as "[Tom, Carl, Carly, Smith, Carly, Smith, Jason, Tom, Carl, Matthew]" should return a mapping as <br/> 
-"[(Tom, 1) (Carl, 2) (Carly, 3) (Smith, 4) (Jason, 5) (Mathew, 6)]".
+
+Map Job output "[(Tom, 0) (Carl, 0) (Carly 0) (Smith, 0) (Carly, 3) (Smith, 4) (Jason, 5) (Tom, 1) (Carl, 2) (Mathew, 0)]" <br/>
+Reduce Job output "[(Tom, 1) (Carl, 2) (Carly, 3) (Smith, 4) (Jason, 5) (Mathew, 6)]" <br/>
 
 # Warranty
 
