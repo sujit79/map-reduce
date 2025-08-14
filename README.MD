@@ -21,12 +21,12 @@ README at
     https://github.com/BWbwchen/MapReduce/ <br/>
 Intially how it was used 
 ```
-    go run -race main.go -i 'input/files' -p 'wc.so' -r 1 -w 8 <br/>
+    go run -race main.go -i 'input/files' -p 'wc.so' -r 1 -w 8 
 ```
 Now supports -buildmode=plugin <br/>
 How to Build <br/>
 ```
-    go build -race -buildmode=plugin -o wc.so wc.go <br/>
+    go build -race -buildmode=plugin -o wc.so wc.go 
 ```
 Master / Slave Examples <br/>
     # Word count
